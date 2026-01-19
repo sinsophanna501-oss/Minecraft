@@ -1,5 +1,5 @@
 import React from 'react'
-import './Buttom.css'
+import './buttom.css'
 
 function buttom() {
   return (
