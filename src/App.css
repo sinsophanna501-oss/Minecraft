@@ -1,0 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.inven_back{
+  background-image: url("https://i.redd.it/c8vuay0gtut41.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.dark{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+.layout{
+  background-color: #c6c6c6;
+  padding: 30px;
+  clip-path: polygon(
+    0px calc(100% - 8px),
+    4px calc(100% - 8px),
+    4px calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px 100%,
+    calc(100% - 8px) 100%,
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 8px),
+    100% calc(100% - 8px),
+    100% 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 0px,
+    8px 0px,
+    8px 4px,
+    4px 4px,
+    4px 8px,
+    0px 8px
+    );
+    border: 5px outset black;
+}
+.outside{
+  
+  height: 520px;
+  overflow: scroll;
+}
+.inside{
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(8,100px);
+  grid-auto-rows: 100px;
+  overflow: scroll;
+}

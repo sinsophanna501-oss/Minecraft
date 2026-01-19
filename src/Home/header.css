@@ -1,0 +1,24 @@
+.description_frame_header p{
+    font-size: 20px;
+}
+.description_frame_header{
+    font-family: 'MinePlayer', sans-serif;
+    gap: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #c5c5c5;
+    width: 900px;
+    padding: 10px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.text{
+    color: black;
+}
+.lego{
+    color: red;
+}
+.minecraft{
+    color: #3a3635;
+}

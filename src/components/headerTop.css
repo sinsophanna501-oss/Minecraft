@@ -1,0 +1,53 @@
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(49, 49, 49, 0.9);
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 2px solid black;
+    z-index: 1500;
+}
+.headerTop img{
+    width: 200px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.option_style{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+.option_style a{
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+    font-size: 15px;
+}
+#option1{ 
+    background-color: green;  
+}
+.option_style p{
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    text-decoration: none;
+}
+.creeper img{
+    border: 2px solid white;
+    width: 50px;
+}
+.no_underline{
+    text-decoration: none;
+}

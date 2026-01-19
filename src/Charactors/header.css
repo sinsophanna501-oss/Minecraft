@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+.Header{
+    font-family: 'MinePlayer', sans-serif;
+    gap: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #c5c5c5;
+    width: 1100px;
+    padding: 10px 0px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+}
